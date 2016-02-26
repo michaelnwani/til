@@ -2,7 +2,7 @@
 
 A collection of short write-ups on materials that I learn more about on a day to day basis, mostly in programming and technology, from work and outside of work.
 
-*Curating 1 TILs, more tomorrow...*
+*Curating 2 TILs. More soon...*
 
 ---
 
@@ -14,6 +14,7 @@ A collection of short write-ups on materials that I learn more about on a day to
 
 ### <a name="Networking"></a> Networking
 * [User-Plane One-way Latency](networking/user-plane-one-way-latency-defined.md)
+* [Changes from HTTP 1.0 to HTTP 1.1](networking/changes-from-http-1.0-to-1.1.md)
 
 ---
 ### About
