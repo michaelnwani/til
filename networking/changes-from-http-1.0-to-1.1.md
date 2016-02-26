@@ -26,9 +26,9 @@ This led to some highly unfavorable and inefficient network performance issues (
 
 `telnet google.com 80`
 
-followed by 'GET /about/ HTTP/1.1'
+followed by `GET /about/ HTTP/1.1`
 
-you would receive back a response from the server with more http headers than those that were in the HTTP 1.0 request (one that gets omitted because its implicit is the header Connection: Keep-alive), and more importantly, the connection wasn't terminated! Which means you can now request some other object:
+you would receive back a response from the server with more http headers than those that were in the HTTP 1.0 request (one that gets omitted because its implicit is the header *Connection: Keep-alive*), and more importantly, the connection wasn't terminated! Which means you can now request some other object:
 
 `GET /finance HTTP/1.1 `
 
